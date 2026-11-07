@@ -1,0 +1,1 @@
+Applicant information is stored securely and accessed only by authorized personnel. Candidate records are retained according to the organization's data-retention schedule and applicable privacy requirements. Information should be securely deleted or anonymized after the retention period unless a valid reason requires continued storage.

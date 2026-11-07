@@ -1,0 +1,196 @@
+{
+    "fixed_size_overlap": {
+        "in_scope": [
+            {
+                "question": "How are interviews scheduled and how can a candidate request rescheduling?",
+                "cosine_distance": 0.3296,
+                "similarity": 0.6704,
+                "source": "interview_scheduling.txt",
+                "matched_text": ". Candidates should confirm their availability or request rescheduling in advance."
+            },
+            {
+                "question": "What happens during background verification before employment is finalized?",
+                "cosine_distance": 0.3171,
+                "similarity": 0.6829,
+                "source": "background_verification.txt",
+                "matched_text": "Background verification may be conducted for selected candidates before their employment is finalized. The process may include verification of educati"
+            },
+            {
+                "question": "What should a candidate know about the probation period?",
+                "cosine_distance": 0.4021,
+                "similarity": 0.5979,
+                "source": "probation.txt",
+                "matched_text": "aluates work quality, attendance, professional conduct, and role responsibilities. Based on the evaluation, employment may be confirmed, probation may"
+            },
+            {
+                "question": "How does the employee referral bonus work?",
+                "cosine_distance": 0.2918,
+                "similarity": 0.7082,
+                "source": "referral_bonus.txt",
+                "matched_text": "Employees may refer qualified candidates for open positions through the approved referral process. A referral bonus may be provided when a referred ca"
+            },
+            {
+                "question": "How long is applicant information retained?",
+                "cosine_distance": 0.3671,
+                "similarity": 0.6329,
+                "source": "data_retention.txt",
+                "matched_text": "Applicant information is stored securely and accessed only by authorized personnel. Candidate records are retained according to the organization's dat"
+            }
+        ],
+        "out_of_scope": [
+            {
+                "question": "What is the weather forecast for Delhi tomorrow?",
+                "cosine_distance": 0.8758,
+                "similarity": 0.1242,
+                "source": "probation.txt",
+                "matched_text": "aluates work quality, attendance, professional conduct, and role responsibilities. Based on the evaluation, employment may be confirmed, probation may"
+            },
+            {
+                "question": "How do I bake a chocolate cake at home?",
+                "cosine_distance": 0.8996,
+                "similarity": 0.1004,
+                "source": "remote_work.txt",
+                "matched_text": "must maintain productivity, attend required meetings, communicate effectively, and follow information-security policies. Remote-work arrangements may"
+            },
+            {
+                "question": "Who won the latest FIFA World Cup?",
+                "cosine_distance": 0.8991,
+                "similarity": 0.1009,
+                "source": "referral_bonus.txt",
+                "matched_text": "ow the organization's referral guidelines to qualify."
+            },
+            {
+                "question": "What is the price of this CPU?",
+                "cosine_distance": 0.8448,
+                "similarity": 0.1552,
+                "source": "offer_negotiation.txt",
+                "matched_text": "Selected candidates receive an offer containing details about the role, compensation, benefits, and joining conditions. Candidates may discuss salary"
+            },
+            {
+                "question": "Which laptop should I buy for gaming?",
+                "cosine_distance": 0.9462,
+                "similarity": 0.0538,
+                "source": "background_verification.txt",
+                "matched_text": "nuine documents, and discrepancies may require additional review."
+            },
+            {
+                "question": "How do I repair a broken smartphone screen?",
+                "cosine_distance": 0.927,
+                "similarity": 0.073,
+                "source": "interview_scheduling.txt",
+                "matched_text": "tes through their registered email address or phone number with the interview date, time, format, and other instructions. Candidates should confirm th"
+            },
+            {
+                "question": "What are the best tourist places in Goa?",
+                "cosine_distance": 0.796,
+                "similarity": 0.204,
+                "source": "remote_work.txt",
+                "matched_text": "must maintain productivity, attend required meetings, communicate effectively, and follow information-security policies. Remote-work arrangements may"
+            },
+            {
+                "question": "How can I learn stock market trading?",
+                "cosine_distance": 0.9026,
+                "similarity": 0.0974,
+                "source": "eligibility.txt",
+                "matched_text": "Candidates must meet the education, skills, and experience requirements mentioned in the job description. Recruiters evaluate applicants based on rele"
+            }
+        ]
+    },
+    "sentence_based": {
+        "in_scope": [
+            {
+                "question": "How are interviews scheduled and how can a candidate request rescheduling?",
+                "cosine_distance": 0.3181,
+                "similarity": 0.6819,
+                "source": "interview_scheduling.txt",
+                "matched_text": "Candidates should confirm their availability or request rescheduling in advance."
+            },
+            {
+                "question": "What happens during background verification before employment is finalized?",
+                "cosine_distance": 0.2139,
+                "similarity": 0.7861,
+                "source": "background_verification.txt",
+                "matched_text": "Background verification may be conducted for selected candidates before their employment is finalized."
+            },
+            {
+                "question": "What should a candidate know about the probation period?",
+                "cosine_distance": 0.3891,
+                "similarity": 0.6109,
+                "source": "probation.txt",
+                "matched_text": "During probation, the organization evaluates work quality, attendance, professional conduct, and role responsibilities."
+            },
+            {
+                "question": "How does the employee referral bonus work?",
+                "cosine_distance": 0.2006,
+                "similarity": 0.7994,
+                "source": "referral_bonus.txt",
+                "matched_text": "A referral bonus may be provided when a referred candidate is hired and completes the required minimum employment period."
+            },
+            {
+                "question": "How long is applicant information retained?",
+                "cosine_distance": 0.3418,
+                "similarity": 0.6582,
+                "source": "data_retention.txt",
+                "matched_text": "Candidate records are retained according to the organization's data-retention schedule and applicable privacy requirements."
+            }
+        ],
+        "out_of_scope": [
+            {
+                "question": "What is the weather forecast for Delhi tomorrow?",
+                "cosine_distance": 0.8848,
+                "similarity": 0.1152,
+                "source": "offer_negotiation.txt",
+                "matched_text": "Candidates may discuss salary expectations and other employment terms with the recruiter."
+            },
+            {
+                "question": "How do I bake a chocolate cake at home?",
+                "cosine_distance": 0.9574,
+                "similarity": 0.0426,
+                "source": "internal_transfer.txt",
+                "matched_text": "Internal applications are evaluated based on skills, performance, experience, business requirements, and necessary manager approvals."
+            },
+            {
+                "question": "Who won the latest FIFA World Cup?",
+                "cosine_distance": 0.8922,
+                "similarity": 0.1078,
+                "source": "exit_interview.txt",
+                "matched_text": "Feedback is handled confidentially and used by authorized teams to improve workplace practices."
+            },
+            {
+                "question": "What is the price of this CPU?",
+                "cosine_distance": 0.9186,
+                "similarity": 0.0814,
+                "source": "offer_negotiation.txt",
+                "matched_text": "Selected candidates receive an offer containing details about the role, compensation, benefits, and joining conditions."
+            },
+            {
+                "question": "Which laptop should I buy for gaming?",
+                "cosine_distance": 0.9404,
+                "similarity": 0.0596,
+                "source": "internal_transfer.txt",
+                "matched_text": "Internal applications are evaluated based on skills, performance, experience, business requirements, and necessary manager approvals."
+            },
+            {
+                "question": "How do I repair a broken smartphone screen?",
+                "cosine_distance": 0.9433,
+                "similarity": 0.0567,
+                "source": "interview_scheduling.txt",
+                "matched_text": "Candidates who successfully complete the screening stage may be invited for an interview."
+            },
+            {
+                "question": "What are the best tourist places in Goa?",
+                "cosine_distance": 0.8771,
+                "similarity": 0.1229,
+                "source": "eligibility.txt",
+                "matched_text": "Candidates must meet the education, skills, and experience requirements mentioned in the job description."
+            },
+            {
+                "question": "How can I learn stock market trading?",
+                "cosine_distance": 0.8656,
+                "similarity": 0.1344,
+                "source": "eligibility.txt",
+                "matched_text": "Recruiters evaluate applicants based on relevant qualifications, professional experience, and required skills."
+            }
+        ]
+    }
+}

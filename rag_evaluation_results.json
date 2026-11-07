@@ -1,0 +1,170 @@
+{
+    "evaluation_mode": "MOCK_LLM",
+    "judge_type": "Deterministic prompt-guided mock judge",
+    "judge_prompt": "\nYou are an evaluator for a recruitment support RAG system.\n\nEvaluate the system using three scores between 0 and 1.\n\n1. CONTEXT RELEVANCE:\nDid the system retrieve the correct knowledge-base\ndocument for the user's question?\n\n2. GROUNDEDNESS:\nIs the generated answer supported by the retrieved\nknowledge-base context?\n\n3. ANSWER RELEVANCE:\nDoes the answer address the user's actual question?\n\nFor out-of-scope questions:\nA correct refusal with no irrelevant sources receives\na score of 1 for all three criteria.\n\nAn incorrect answer to an out-of-scope question receives\na score of 0 for all three criteria.\n\nReturn scores between 0 and 1.\n\nThe evaluation runs in MOCK_LLM mode.\nThe deterministic mock judge follows this prompt\nusing predefined rules without an external API.\n",
+    "total_queries": 15,
+    "average_context_relevance": 1.0,
+    "average_groundedness": 1.0,
+    "average_answer_relevance": 0.87,
+    "individual_results": [
+        {
+            "query": "What are the eligibility criteria for applying for a job?",
+            "status": "answered",
+            "sources": [
+                "eligibility.txt"
+            ],
+            "context_relevance": 1,
+            "groundedness": 1.0,
+            "answer_relevance": 0.0,
+            "judge_reason": "Scores calculated using the deterministic MOCK_LLM evaluation rubric."
+        },
+        {
+            "query": "How can I schedule or reschedule an interview?",
+            "status": "answered",
+            "sources": [
+                "interview_scheduling.txt"
+            ],
+            "context_relevance": 1,
+            "groundedness": 1.0,
+            "answer_relevance": 0.5,
+            "judge_reason": "Scores calculated using the deterministic MOCK_LLM evaluation rubric."
+        },
+        {
+            "query": "Can candidates negotiate their offered salary?",
+            "status": "answered",
+            "sources": [
+                "offer_negotiation.txt"
+            ],
+            "context_relevance": 1,
+            "groundedness": 1.0,
+            "answer_relevance": 1.0,
+            "judge_reason": "Scores calculated using the deterministic MOCK_LLM evaluation rubric."
+        },
+        {
+            "query": "What happens during background verification?",
+            "status": "answered",
+            "sources": [
+                "background_verification.txt"
+            ],
+            "context_relevance": 1,
+            "groundedness": 1.0,
+            "answer_relevance": 1.0,
+            "judge_reason": "Scores calculated using the deterministic MOCK_LLM evaluation rubric."
+        },
+        {
+            "query": "What is the notice period policy?",
+            "status": "answered",
+            "sources": [
+                "notice_period.txt"
+            ],
+            "context_relevance": 1,
+            "groundedness": 1.0,
+            "answer_relevance": 1.0,
+            "judge_reason": "Scores calculated using the deterministic MOCK_LLM evaluation rubric."
+        },
+        {
+            "query": "How does the employee referral bonus work?",
+            "status": "answered",
+            "sources": [
+                "referral_bonus.txt"
+            ],
+            "context_relevance": 1,
+            "groundedness": 1.0,
+            "answer_relevance": 1.0,
+            "judge_reason": "Scores calculated using the deterministic MOCK_LLM evaluation rubric."
+        },
+        {
+            "query": "Can an employee transfer to another department?",
+            "status": "answered",
+            "sources": [
+                "internal_transfer.txt"
+            ],
+            "context_relevance": 1,
+            "groundedness": 1.0,
+            "answer_relevance": 1.0,
+            "judge_reason": "Scores calculated using the deterministic MOCK_LLM evaluation rubric."
+        },
+        {
+            "query": "How long is the probation period?",
+            "status": "answered",
+            "sources": [
+                "probation.txt"
+            ],
+            "context_relevance": 1,
+            "groundedness": 1.0,
+            "answer_relevance": 1.0,
+            "judge_reason": "Scores calculated using the deterministic MOCK_LLM evaluation rubric."
+        },
+        {
+            "query": "Are employees eligible to work remotely?",
+            "status": "answered",
+            "sources": [
+                "remote_work.txt"
+            ],
+            "context_relevance": 1,
+            "groundedness": 1.0,
+            "answer_relevance": 1.0,
+            "judge_reason": "Scores calculated using the deterministic MOCK_LLM evaluation rubric."
+        },
+        {
+            "query": "What are the diversity hiring guidelines?",
+            "status": "answered",
+            "sources": [
+                "diversity_hiring.txt"
+            ],
+            "context_relevance": 1,
+            "groundedness": 1.0,
+            "answer_relevance": 0.5,
+            "judge_reason": "Scores calculated using the deterministic MOCK_LLM evaluation rubric."
+        },
+        {
+            "query": "What happens during an exit interview?",
+            "status": "answered",
+            "sources": [
+                "exit_interview.txt"
+            ],
+            "context_relevance": 1,
+            "groundedness": 1.0,
+            "answer_relevance": 1.0,
+            "judge_reason": "Scores calculated using the deterministic MOCK_LLM evaluation rubric."
+        },
+        {
+            "query": "How long is applicant data retained?",
+            "status": "answered",
+            "sources": [
+                "data_retention.txt"
+            ],
+            "context_relevance": 1,
+            "groundedness": 1.0,
+            "answer_relevance": 1.0,
+            "judge_reason": "Scores calculated using the deterministic MOCK_LLM evaluation rubric."
+        },
+        {
+            "query": "What is the price of Bitcoin today?",
+            "status": "out_of_scope",
+            "sources": [],
+            "context_relevance": 1,
+            "groundedness": 1,
+            "answer_relevance": 1,
+            "judge_reason": "Correct refusal of out-of-scope question."
+        },
+        {
+            "query": "Who won the cricket match yesterday?",
+            "status": "out_of_scope",
+            "sources": [],
+            "context_relevance": 1,
+            "groundedness": 1,
+            "answer_relevance": 1,
+            "judge_reason": "Correct refusal of out-of-scope question."
+        },
+        {
+            "query": "How do I repair a car engine?",
+            "status": "out_of_scope",
+            "sources": [],
+            "context_relevance": 1,
+            "groundedness": 1,
+            "answer_relevance": 1,
+            "judge_reason": "Correct refusal of out-of-scope question."
+        }
+    ]
+}
